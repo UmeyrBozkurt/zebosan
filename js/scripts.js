@@ -52,3 +52,9 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+/* - SLİDER GEÇİŞ JS - */
+$(document).ready(function () {
+    // Carousel initialization
+    $('#projectCarousel').carousel();
+});
