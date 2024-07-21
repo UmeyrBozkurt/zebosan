@@ -11204,5 +11204,5 @@ body {
 /* Butonların simgesinin rengini değiştirmek için */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: black; /* Simgenin arka plan rengi */
+    background-color: black;
 }
