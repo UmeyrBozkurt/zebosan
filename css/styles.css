@@ -11199,3 +11199,10 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+/* - SLİDER CSS - */
+/* Butonların simgesinin rengini değiştirmek için */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
