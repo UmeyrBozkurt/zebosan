@@ -20,6 +20,25 @@
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .square-image {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            /* Resmin kare şeklinde olmasını sağlar */
+            object-fit: cover;
+            /* Resmin boyutunu bozmadan yerleşmesini sağlar */
+            margin-bottom: 20px;
+            /* Her bir resmin altına biraz boşluk ekler */
+        }
+
+        @media (min-width: 768px) {
+            .square-image {
+                margin-bottom: 0;
+                /* Daha büyük ekranlarda boşluğu kaldırır */
+            }
+        }
+    </style>
 </head>
 
 <body id="page-top">
@@ -38,7 +57,7 @@
                     <li class="nav-item"><a class="nav-link" href="about.html">Hakkımızda</a></li>
                     <li class="nav-item"><a class="nav-link" href="project.html">Projelerimiz</a></li>
                     <li class="nav-item"><a class="nav-link" href="crane.html">Vinç Parkurumuz</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">İletişim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">İletişim</a></li>
                 </ul>
             </div>
         </div>
@@ -58,6 +77,23 @@
     <!-- About Section -->
     <!-- Projects Section -->
     <!-- Crane-->
+    <!-- İmg-->
+    <section class="image-section bg-black text-center">
+        <div class="container px-4 px-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <img src="assets/img/partfive.jpg" alt="Image 1" class="img-fluid square-image">
+                    <p style="color:white">DGKŞSAMGASD</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/img/partfour.1.jpg" alt="Image 2" class="img-fluid square-image">
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/img/partthree.1.jpg" alt="Image 3" class="img-fluid square-image">
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Contact-->
     <section class="contact-section bg-black" id="contact">
         <div class="container px-4 px-lg-5">
@@ -98,8 +134,7 @@
             <div class="social d-flex justify-content-center">
                 <a class="mx-2" href="https://www.facebook.com/zekeriya.bozkurt.775/?locale=tr_TR"><i
                         class="fab fa-facebook-f"></i></a>
-                <a class="mx-2" href="https://www.instagram.com/zebosan21/"><i
-                        class="fab fa-instagram"></i></a>
+                <a class="mx-2" href="https://www.instagram.com/zebosan21/"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </section>
@@ -107,7 +142,7 @@
     <footer class="footer bg-black small text-center text-white-50">
         <div class="container px-4 px-lg-5">Copyright &copy; Zebosan Vinç - 2024</div>
     </footer>
-    
+
 </body>
 
 </html>

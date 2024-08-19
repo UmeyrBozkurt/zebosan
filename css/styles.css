@@ -11075,6 +11075,22 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
+
+
+/* Bilgisayar için */
+@media (min-width: 768px) {
+  .masthead {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/arkaplan.jpg");
+  }
+}
+
+/* Telefon için */
+@media (max-width: 767px) {
+  .masthead {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/galeri/152019ca-4c1b-45cc-a839-611d8ba7f21c.jpg");
+  }
+}
+
 .masthead h1, .masthead .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
